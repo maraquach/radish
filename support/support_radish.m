@@ -1,4 +1,4 @@
-function [ChosenB1, ChosenB0, score] = little_radish(vox, Y, wx, wxi, mB1, mB0, Aa, Bb, Cc, lim, mpp, ps, B0ignore)
+function [ChosenB1, ChosenB0, score] = support_radish(vox, Y, wx, wxi, mB1, mB0, Aa, Bb, Cc, lim, mpp, ps, B0ignore)
     % Outputs:
     %           ChosenB1, ChosenB0: best B1, B0 candidates
     %           score: [au], double, score of the fit (lower = better)
