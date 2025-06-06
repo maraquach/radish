@@ -95,7 +95,7 @@ function [ChosenB1, ChosenB0, score] = support_radish(vox, Y, wx, wxi, mB1, mB0,
     
     % clear tx pxt
     
-    b0t = b1c~=0 & b0c > -mB0 & b0c > mB0(1) & b0c < mB0(2) & b0c~=B0ignore & b1c<=mB1(2) & b1c >=mB1(1);
+    b0t = b1c~=0 & b0c > mB0(1) & b0c < mB0(2) & b0c~=B0ignore & b1c<=mB1(2) & b1c >=mB1(1);
     
     b0c = b0c(b0t);
     pdc = pdc(b0t);
@@ -121,7 +121,7 @@ function [ChosenB1, ChosenB0, score] = support_radish(vox, Y, wx, wxi, mB1, mB0,
     % clear pdc idx b0t pd1 pd2 pd3 ccurve
     
     if pd >= lim
-        b1e = findb1_l(pd - ps*[1.5:.05:2.5], Aa, Cc, lim);
+        b1e = findb1_l(pd - ps*[-1.5:.05:2.5], Aa, Cc, lim);
     else
         b1e = findb1_l(pd - ps*[.5:.05:1.5], Aa, Cc, lim);
     end
