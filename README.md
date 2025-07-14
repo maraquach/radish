@@ -6,7 +6,8 @@ These simple MATLAB scripts will allow you to process WASABI data into $\delta\o
 
 Please view **radish_demo.m** for demonstration on how to set up your parameters and run RADISH.
 
-A manuscript has been submitted to MRM, pending reviews.
+Publication:
+* M. Quach, M. Strik, R. Glarin, B. A. Moffat, D. K. Wright, L. A. Johnston. *Rapid and simplified post-processing for simultaneous B<sub>0</sub> and B<sub>1</sub> mapping in the application of CEST.* Magnetic Resonance in Medicine. (Accepted 6 July 2025)
 
 RADISH is based on the original work by Schuenke et al. (2017)
 
